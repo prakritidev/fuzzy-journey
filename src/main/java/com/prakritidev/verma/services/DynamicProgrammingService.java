@@ -24,7 +24,16 @@ public class DynamicProgrammingService {
         long start = System.currentTimeMillis();
         List<Integer> response = new ArrayList<>();
         try {
-
+            int first = 0;
+            int second = 1;
+            response.add(first);
+            response.add(second);
+            for (int i = 0; i <= range; i++) {
+                int third = first + second;
+                first = second;
+                second = third;
+                response.add(third);
+            }
         } catch (Exception e){
             long end = System.currentTimeMillis();
             float sec = (end - start) / 1000F;
