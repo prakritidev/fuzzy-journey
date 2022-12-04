@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 public class DataStructureController {
 
@@ -33,5 +35,25 @@ public class DataStructureController {
         ResposeBody response = dynamicProgrammingService.getFirstNFibonacciRecusive(range);
         return new ResponseEntity<>(objectMapper.writer().withDefaultPrettyPrinter().writeValueAsString(response), HttpStatus.OK);
     }
+
+    /**
+     * 0-1 KSackProblems:
+     * Given a bag of weight capacity c, and items has value v and weight w.
+     * Which items should be selected to obtain maximum profit, and should not exceed the bag capacity.
+     *
+     * @param capacity
+     * @param weight
+     * @param price
+     * @return
+     */
+//    @SneakyThrows
+//    @GetMapping(value= "/dp/fibonacci", produces = "application/json")
+//    public ResponseEntity<?> knapSack(@RequestParam(value = "range") Integer capacity,
+//                                      @RequestParam("range") List<Integer> weight,
+//                                      @RequestParam("range") List<Integer> price){
+//
+//        ResposeBody response = dynamicProgrammingService.getFirstNFibonacciRecusive(capacity);
+//        return new ResponseEntity<>(objectMapper.writer().withDefaultPrettyPrinter().writeValueAsString(response), HttpStatus.OK);
+//    }
 
 }
