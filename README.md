@@ -22,3 +22,6 @@
 7. Play with Elasticsearch
 8. Play with Machine Learning
 9. Play with Design Patterns
+   10. Factory Desing Pattern
+   11. Abstract Factory Desing Pattern
+   12. Builder Desing Pattern
