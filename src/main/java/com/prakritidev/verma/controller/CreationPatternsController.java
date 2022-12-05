@@ -14,8 +14,24 @@ public class CreationPatternsController {
     @Autowired
     CreationalPatterService creationalPatterService;
 
+
+    /**
+     * Factory Pattern
+     * @param message
+     * @param channel
+     * @return
+     */
     @GetMapping(value= "/design-patterns/factory-method", produces = "application/json")
     public ResponseEntity<?> sendNotificationServerice(@RequestParam(value = "message") String message, @RequestParam(value ="channel") String channel){
         return new ResponseEntity<>(creationalPatterService.abstractPatterNotificationFactory(message, channel), HttpStatus.OK);
     }
+    // TODO: implement Abstract Factory Patter API
+
+    @GetMapping(value= "/design-patterns/builder-method", produces = "application/json")
+    public ResponseEntity<?> createUserDefinedCustomShit(@RequestParam(value = "message") String message, @RequestParam(value ="channel") String channel){
+        return new ResponseEntity<>(creationalPatterService.abstractPatterNotificationFactory(message, channel), HttpStatus.OK);
+    }
+
+
+
 }
