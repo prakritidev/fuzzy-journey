@@ -21,7 +21,7 @@
 6. Play with WebRTC
 7. Play with Elasticsearch
 8. Play with Machine Learning
-9. Play with Design Patterns
-   10. Factory Desing Pattern
-   11. Abstract Factory Desing Pattern
-   12. Builder Desing Pattern
+9. Play with Design Patterns 
+   1. Factory Desing Pattern
+   2. Abstract Factory Desing Pattern
+   3. Builder Desing Pattern
