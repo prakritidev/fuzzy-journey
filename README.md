@@ -15,10 +15,21 @@
          9. Edit distance problem (Levenshtein)
          10. Word break problem
          11. Fibonacci Series problem
+  2. Graph
+     1. BFS and DFS
+     2. 
+     3. 
+  3. Trees
+     1. Traversals
+  4. Sporting
+     1. BTD
 3. Play with Java internals 
 4. Play with Spring Boot internals
 5. Play with websocket
 6. Play with WebRTC
 7. Play with Elasticsearch
 8. Play with Machine Learning
-9. Play with Design Patterns
+9.  Play with Design Patterns 
+   1. Factory Desing Pattern
+   2. Abstract Factory Desing Pattern
+   3. Builder Desing Pattern
