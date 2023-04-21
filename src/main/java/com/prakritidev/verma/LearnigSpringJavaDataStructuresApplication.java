@@ -7,6 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LearnigSpringJavaDataStructuresApplication {
 
 	public static void main(String[] args) {
+
+
+		Thread thread = new Thread();
+		thread.start();
+		
 		SpringApplication.run(LearnigSpringJavaDataStructuresApplication.class, args);
 	}
 
