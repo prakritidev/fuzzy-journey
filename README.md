@@ -1,24 +1,22 @@
-# My Learning Journey
+# Elasticsearch Springboot 
+
+Aim of this feature branch is to implement elasticsearch features in spring boot and explore the internals. I'll try to explore and implement feature of elasticsearch 8 provides. 
+
+## Project Scope.
+Things we'll focus on
+
+## Docker-compose. 
 
 
-1. Play with REST APIs
-2. Play with Data Structure
-   1. Dynamic Programming
-         1. 0-1 Knapsack problem 
-         2. Coin change problem 
-         3. Shortest common subsequence
-         4. Longest common subsequence
-         5. Longest increasing subsequence
-         6. Matrix chain manipulation
-         7. Partition problem
-         8. Rod cutting
-         9. Edit distance problem (Levenshtein)
-         10. Word break problem
-         11. Fibonacci Series problem
-3. Play with Java internals 
-4. Play with Spring Boot internals
-5. Play with websocket
-6. Play with WebRTC
-7. Play with Elasticsearch
-8. Play with Machine Learning
-9. Play with Design Patterns
+## DSL Queries. 
+
+
+## Search using embeddings. 
+
+
+## Relevance Search ChatGPT Integration. 
+
+
+## Elasticsearch JVM tuning. 
+
+## Elasticsearch performance with SpringBoot. 
