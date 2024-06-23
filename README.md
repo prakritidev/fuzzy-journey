@@ -1,5 +1,9 @@
-# My Learning Journey
+# How to use this repository ? 
 
+Each branch is dedicated to a topic with a format of {{domain}}-{{projectname}}
+
+
+## branch: Low Level Desing
 
 1. Play with REST APIs
 2. Play with Data Structure
