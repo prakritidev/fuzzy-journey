@@ -2,16 +2,10 @@
 
 Each branch is dedicated to a topic with a format of {{domain}}-{{projectname}}
 
+## Branch: Low Level Desing (Parking Lot)
 
-## branch: Low Level Desing
+“We’ll begin with basic requirements while ensuring the code remains flexible enough to accommodate future needs for at least the next five years in a heuristic manner.”
 
+Requirments:
 
-1. Play with REST APIs
-2. Play with Data Structure
-3. Play with Java internals 
-4. Play with Spring Boot internals
-5. Play with websocket
-6. Play with WebRTC
-7. Play with Elasticsearch
-8. Play with Machine Learning
-9. Play with Design Patterns
+1. 
