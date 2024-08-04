@@ -8,4 +8,6 @@ Each branch is dedicated to a topic with a format of {{domain}}-{{projectname}}
 
 Requirments:
 
-1. 
+1.User should be able to park vehicle. 
+2. User should be able to get a ticket 
+3. User should be able to pay bill at the exit gate. 
